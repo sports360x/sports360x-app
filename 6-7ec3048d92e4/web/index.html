@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0a0e13" />
+  <meta name="description" content="Sports 360 X - AI-powered sports analytics and insights" />
+  <title>Sports 360 X</title>
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/sports360x-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+</head>
+<body>
+  <div id="root"></div>
+  
+  <!-- Sports 360 X Branded Noscript Fallback -->
+  <noscript>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #0a0e13;
+        color: #e8f0f7;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .fallback {
+        max-width: 400px;
+        text-align: center;
+        padding: 40px 20px;
+        background: #141b24;
+        border-radius: 16px;
+        border: 1px solid #334155;
+      }
+      .logo {
+        width: 80px;
+        height: 80px;
+        background: #00d4aa;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 24px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #0a0e13;
+      }
+      .spinner {
+        margin: 24px auto;
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(232, 240, 247, 0.2);
+        border-top-color: #00d4aa;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      h1 {
+        font-size: 28px;
+        font-weight: 800;
+        margin: 0 0 8px;
+        letter-spacing: -0.5px;
+      }
+      p {
+        font-size: 16px;
+        color: #64748b;
+        margin: 0 0 24px;
+        line-height: 1.5;
+      }
+      .links {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .links a {
+        color: #00d4aa;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 8px 16px;
+        background: rgba(0, 212, 170, 0.1);
+        border-radius: 8px;
+        transition: background 0.2s;
+      }
+      .links a:hover {
+        background: rgba(0, 212, 170, 0.2);
+      }
+    </style>
+    <div class="fallback">
+      <div class="logo">360</div>
+      <h1>Sports 360 X</h1>
+      <div class="spinner"></div>
+      <p>Loading your scores and analytics...</p>
+      <div class="links">
+        <a href="/scores">Scores</a>
+        <a href="/insights">AI Insights</a>
+        <a href="/bets">My Bets</a>
+        <a href="/favorites">Favorites</a>
+      </div>
+    </div>
+  </noscript>
+</body>
+</html>

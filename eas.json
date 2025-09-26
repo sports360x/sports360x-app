@@ -8,7 +8,7 @@
         "resourceClass": "m-medium",
         "credentialsSource": "remote"
       },
-      "android": {
+      "android": {2
         "autoIncrement": true,
         "credentialsSource": "remote"
       }
@@ -16,7 +16,7 @@
   },
   "submit": {
     "ios": {
-      "appleId": "your-apple-id@example.com"
+      "appleId": "jordan_carrion@yahoo.com"
     }
   }
 }

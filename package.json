@@ -1,23 +1,36 @@
 {
-  "name": "sports360x",
-  "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~51.0.0",
-    "expo-status-bar": "~1.12.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.74.1",
-    "react-native-web": "~0.19.10"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.23.0"
-  },
-  "private": true
+  "expo": {
+    "name": "Sports 360 X",
+    "slug": "sports360x-app",
+    "version": "1.0.3",
+    "ios": {
+      "bundleIdentifier": "com.yourname.sports360x",
+      "buildNumber": "4"
+    },
+    "android": {
+      "package": "com.yourname.sports360x",
+      "versionCode": 4
+    }
+  }
+}{
+  "cli": { "version": ">= 11.0.0" },
+  "build": {
+    "production": {
+      "ios": {
+        "autoIncrement": "buildNumber",
+        "image": "latest",
+        "resourceClass": "m-medium",
+        "credentialsSource": "remote"
+      },
+      "android": {
+        "autoIncrement": true,
+        "credentialsSource": "remote"
+      }
+    }
+  },
+  "submit": {
+    "ios": {
+      "appleId": "your-apple-id@example.com"
+    }
+  }
 }

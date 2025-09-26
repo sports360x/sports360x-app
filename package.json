@@ -12,25 +12,4 @@
       "versionCode": 4
     }
   }
-}{
-  "cli": { "version": ">= 11.0.0" },
-  "build": {
-    "production": {
-      "ios": {
-        "autoIncrement": "buildNumber",
-        "image": "latest",
-        "resourceClass": "m-medium",
-        "credentialsSource": "remote"
-      },
-      "android": {
-        "autoIncrement": true,
-        "credentialsSource": "remote"
-      }
-    }
-  },
-  "submit": {
-    "ios": {
-      "appleId": "your-apple-id@example.com"
-    }
-  }
 }

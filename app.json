@@ -18,7 +18,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.sports360x.app",
-      "buildNumber": "1",
+      "buildNumber": "5",
       "infoPlist": {
         "NSUserNotificationUsageDescription": "Sports 360 X sends notifications for best bets, favorite team alerts, and bet result updates to keep you informed.",
         "NSCameraUsageDescription": "This app does not use the camera.",
